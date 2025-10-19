@@ -90,7 +90,7 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Us?</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Welcome to Bagpak Oman</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Quality assurance and customer centric approach lead us in the industry and enables us the energy to manufacture highly promising, innovative and quality products at effective cost.
               </p>
