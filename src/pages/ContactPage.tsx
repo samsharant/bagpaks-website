@@ -250,12 +250,17 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-gray-200 to-gray-300 h-96 rounded-lg flex items-center justify-center">
-                <div className="text-center text-gray-600">
-                  <MapPin className="h-16 w-16 mx-auto mb-4" />
-                  <p className="font-bold text-lg">Sohar Industrial Area</p>
-                  <p className="text-sm">Fala Al-Ouhi, Oman</p>
-                </div>
+              <div className="h-96 rounded-lg overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.1749847888!2d56.73820287550443!3d24.371599278248596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8e5d5d5d5d5d5d%3A0x5d5d5d5d5d5d5d5d!2sBagpak%20Oman!5e0!3m2!1sen!2som!4v1634567890123!5m2!1sen!2som"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Bagpak Oman Location"
+                />
               </div>
 
               <div className="mt-8 bg-blue-50 border-2 border-blue-900 p-6 rounded-lg">
