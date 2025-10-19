@@ -212,7 +212,7 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
             <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="h-80 bg-white flex items-center justify-center p-6">
                 <img
-                  src="/Gemini_Generated_Image_ufouihufouihufou.png"
+                  src="/Gemini_Generated_Image_nh26onnh26onnh26.png"
                   alt="Woven PP Bag - Bagpak"
                   className="h-full w-auto object-contain"
                 />

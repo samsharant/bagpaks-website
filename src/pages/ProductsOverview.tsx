@@ -187,7 +187,7 @@ export default function ProductsOverview({ setCurrentPage }: ProductsOverviewPro
               <div className="order-1 md:order-2">
                 <div className="bg-white rounded-lg shadow-xl p-8 h-96 flex items-center justify-center">
                   <img
-                    src="/Gemini_Generated_Image_ufouihufouihufou.png"
+                    src="/Gemini_Generated_Image_nh26onnh26onnh26.png"
                     alt="Woven PP Bag - Bagpak"
                     className="h-full w-auto object-contain"
                   />
