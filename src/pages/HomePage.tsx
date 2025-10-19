@@ -86,6 +86,28 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
         </div>
       </section>
 
+      <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-white mb-4">See Our Manufacturing Process</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Take a virtual tour of our state-of-the-art facility and witness our commitment to quality
+            </p>
+          </div>
+          <div className="max-w-5xl mx-auto">
+            <div className="relative" style={{ paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+              <iframe
+                src="https://www.youtube.com/embed/evI428fFjSQ?autoplay=1&mute=1"
+                title="Bagpak Manufacturing Process"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute top-0 left-0 w-full h-full rounded-lg shadow-2xl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -277,7 +299,7 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6">Why Choose Bagpaks Oman?</h2>
+              <h2 className="text-4xl font-bold mb-6">Why Choose Bagpak Oman?</h2>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="flex-shrink-0 w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center font-bold text-xl">

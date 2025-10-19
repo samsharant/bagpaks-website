@@ -6,7 +6,7 @@ export default function AboutPage() {
     <div>
       <section className="bg-gradient-to-br from-blue-900 to-gray-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl font-bold mb-6">About Bagpaks Oman</h1>
+          <h1 className="text-5xl font-bold mb-6">About Bagpak Oman</h1>
           <p className="text-xl text-gray-300 max-w-3xl leading-relaxed mb-8">
             A trusted name in industrial packaging solutions, delivering quality and reliability across the Middle East and beyond
           </p>
@@ -27,13 +27,13 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Bagpaks Oman has been at the forefront of industrial packaging innovation for over two decades. Established in the Sultanate of Oman, we have grown from a regional supplier to a recognized name in bulk packaging solutions across international markets.
+                Bagpak Oman has been at the forefront of industrial packaging innovation for over two decades. Established in the Sultanate of Oman, we have grown from a regional supplier to a recognized name in bulk packaging solutions across international markets.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 Our journey began with a simple mission: to provide high-quality, reliable packaging solutions that meet the demanding requirements of modern industry. Through continuous investment in technology, quality control, and customer service, we have built a reputation for excellence that spans continents.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Today, Bagpaks Oman operates from our state-of-the-art facility in the Fala Al-Ouhi Industrial Area in Sohar, where we manufacture a comprehensive range of FIBC bags, Baffle bags, and Woven PP bags that serve diverse industries worldwide.
+                Today, Bagpak Oman operates from our state-of-the-art facility in the Fala Al-Ouhi Industrial Area in Sohar, where we manufacture a comprehensive range of FIBC bags, Baffle bags, and Woven PP bags that serve diverse industries worldwide.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-6">
@@ -84,7 +84,7 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-bold text-gray-900">Our Vision</h3>
               </div>
               <p className="text-gray-700 leading-relaxed">
-                To be the leading provider of industrial packaging solutions in the Middle East and a respected global partner, recognized for our unwavering commitment to quality, innovation, and sustainability. We envision a future where Bagpaks Oman sets the standard for excellence in bulk packaging across all markets we serve.
+                To be the leading provider of industrial packaging solutions in the Middle East and a respected global partner, recognized for our unwavering commitment to quality, innovation, and sustainability. We envision a future where Bagpak Oman sets the standard for excellence in bulk packaging across all markets we serve.
               </p>
             </div>
           </div>
@@ -229,7 +229,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Partner With Us?</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Join the hundreds of companies that trust Bagpaks Oman for their industrial packaging needs. Contact us today to discuss how we can support your operations.
+            Join the hundreds of companies that trust Bagpak Oman for their industrial packaging needs. Contact us today to discuss how we can support your operations.
           </p>
           <a
             href="#"

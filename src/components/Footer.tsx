@@ -19,10 +19,10 @@ export default function Footer({ setCurrentPage }: FooterProps) {
             <div className="flex items-center mb-4">
               <img
                 src="/bagpaks-logo.png"
-                alt="Bagpaks Logo"
+                alt="Bagpak Logo"
                 className="h-12 w-12 object-contain"
               />
-              <h3 className="ml-2 text-xl font-bold">Bagpaks Oman</h3>
+              <h3 className="ml-2 text-xl font-bold">Bagpak Oman</h3>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Leading provider of industrial packaging solutions in Oman. Specializing in FIBC bags, Baffle bags, and Woven PP bags for diverse industrial applications.
@@ -80,10 +80,10 @@ export default function Footer({ setCurrentPage }: FooterProps) {
               <div className="flex items-start">
                 <Mail className="h-5 w-5 text-red-600 mt-0.5 flex-shrink-0" />
                 <a
-                  href="mailto:info@bagpaks.com"
+                  href="mailto:info@bagpak.com"
                   className="ml-3 text-sm text-gray-400 hover:text-white transition-colors"
                 >
-                  info@bagpaks.com
+                  info@bagpak.com
                 </a>
               </div>
 
@@ -102,7 +102,7 @@ export default function Footer({ setCurrentPage }: FooterProps) {
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Bagpaks Oman. All rights reserved.
+              © {new Date().getFullYear()} Bagpak Oman. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm mt-4 md:mt-0">
               Industrial Packaging Solutions

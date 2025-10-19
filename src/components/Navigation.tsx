@@ -27,11 +27,11 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
           >
             <img
               src="/bagpaks-logo.png"
-              alt="Bagpaks Logo"
+              alt="Bagpak Logo"
               className="h-14 w-14 object-contain"
             />
             <div className="ml-3">
-              <h1 className="text-2xl font-bold text-gray-900">Bagpaks Oman</h1>
+              <h1 className="text-2xl font-bold text-gray-900">Bagpak Oman</h1>
               <p className="text-xs text-gray-600 tracking-wide">Industrial Packaging Solutions</p>
             </div>
           </div>

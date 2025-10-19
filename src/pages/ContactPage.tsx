@@ -83,10 +83,10 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Email Address</h3>
               <a
-                href="mailto:info@bagpaks.com"
+                href="mailto:info@bagpak.com"
                 className="text-gray-700 hover:text-red-600 transition-colors"
               >
-                info@bagpaks.com
+                info@bagpak.com
               </a>
             </div>
 
@@ -229,7 +229,7 @@ export default function ContactPage() {
                 <div className="flex items-start mb-6">
                   <MapPin className="h-6 w-6 text-red-600 mt-1 flex-shrink-0" />
                   <div className="ml-4">
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">Bagpaks Oman</h3>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Bagpak Oman</h3>
                     <p className="text-gray-700 leading-relaxed">
                       Plot No. 25, Squara 4<br />
                       P.O. Box: 170, PC: 311<br />
