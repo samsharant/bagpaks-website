@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Target, Shield, Globe, Users, TrendingUp } from 'lucide-react';
+import { Award, Target, Shield, Globe, Users, TrendingUp, Download } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -7,9 +7,17 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-blue-900 to-gray-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold mb-6">About Bagpaks Oman</h1>
-          <p className="text-xl text-gray-300 max-w-3xl leading-relaxed">
+          <p className="text-xl text-gray-300 max-w-3xl leading-relaxed mb-8">
             A trusted name in industrial packaging solutions, delivering quality and reliability across the Middle East and beyond
           </p>
+          <a
+            href="/Eng Arabic Brochure _ Mobile (1).pdf"
+            download="Bagpaks_Company_Brochure.pdf"
+            className="inline-flex items-center px-6 py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition-colors shadow-lg"
+          >
+            <Download className="h-5 w-5 mr-2" />
+            Download Company Brochure
+          </a>
         </div>
       </section>
 
