@@ -86,23 +86,63 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800">
+      <section className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-white mb-4">See Our Manufacturing Process</h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Take a virtual tour of our state-of-the-art facility and witness our commitment to quality
-            </p>
-          </div>
-          <div className="max-w-5xl mx-auto">
-            <div className="relative" style={{ paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
-              <iframe
-                src="https://www.youtube.com/embed/evI428fFjSQ?autoplay=1&mute=1"
-                title="Bagpak Manufacturing Process"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute top-0 left-0 w-full h-full rounded-lg shadow-2xl"
-              />
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <div>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Product Development</h2>
+                <p className="text-gray-700 leading-relaxed">
+                  We constantly strive to develop latest techniques to ensure only the best products are manufactured.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Market Analysis</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  We believe in following the latest Industry & market trends to always provide the latest solution.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Client Management</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Our customers are at the forefront. We pride in associating closely with our clients & offer latest innovations with class leading quality assurance.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Why choose us?</h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  Quality assurance and customer centric approach lead us in the industry and enables us the energy to manufacture highly promising, innovative and quality products at effective cost.
+                </p>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-red-600 mr-2">•</span>
+                    <span>Advanced equipments and stringent quality measurement</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-600 mr-2">•</span>
+                    <span>Commitment to hygiene and cleanliness ensures food grade FIBCs that are sanitized and free from dust, germs and pollutants</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-600 mr-2">•</span>
+                    <span>Integrate suitable techniques for quality improvement</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <div className="relative" style={{ paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+                <iframe
+                  src="https://www.youtube.com/embed/evI428fFjSQ?autoplay=1&mute=1"
+                  title="Bagpak Manufacturing Process"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                />
+              </div>
             </div>
           </div>
         </div>
