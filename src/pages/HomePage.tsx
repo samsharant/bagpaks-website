@@ -175,7 +175,7 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
             <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="h-80 bg-white flex items-center justify-center p-6">
                 <img
-                  src="/Gemini_Generated_Image_jdyen3jdyen3jdye.png"
+                  src="/Gemini_Generated_Image_ml2cv2ml2cv2ml2c.png"
                   alt="Baffle Bag - Bagpak"
                   className="h-full w-auto object-contain"
                 />

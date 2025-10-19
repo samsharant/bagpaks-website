@@ -87,7 +87,7 @@ export default function ProductsOverview({ setCurrentPage }: ProductsOverviewPro
               <div>
                 <div className="bg-white rounded-lg shadow-xl p-8 h-96 flex items-center justify-center">
                   <img
-                    src="/Gemini_Generated_Image_jdyen3jdyen3jdye.png"
+                    src="/Gemini_Generated_Image_ml2cv2ml2cv2ml2c.png"
                     alt="Baffle Bag - Bagpak"
                     className="h-full w-auto object-contain"
                   />
