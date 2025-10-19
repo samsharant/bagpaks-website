@@ -75,7 +75,7 @@ export default function ProductsOverview({ setCurrentPage }: ProductsOverviewPro
               <div className="order-1 md:order-2">
                 <div className="bg-white rounded-lg shadow-xl p-8 h-96 flex items-center justify-center">
                   <img
-                    src="/Gemini_Generated_Image_3iew7k3iew7k3iew.png"
+                    src="/Gemini_Generated_Image_jxk5ahjxk5ahjxk5.png"
                     alt="FIBC Bag - Bagpak"
                     className="h-full w-auto object-contain"
                   />

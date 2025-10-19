@@ -113,7 +113,7 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
             <div>
               <div className="relative" style={{ paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
                 <iframe
-                  src="https://www.youtube.com/embed/evI428fFjSQ?autoplay=1&mute=1"
+                  src="https://www.youtube.com/embed/evI428fFjSQ?autoplay=1"
                   title="Bagpak Manufacturing Process"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -138,7 +138,7 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
             <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="h-80 bg-white flex items-center justify-center p-6">
                 <img
-                  src="/Gemini_Generated_Image_3iew7k3iew7k3iew.png"
+                  src="/Gemini_Generated_Image_jxk5ahjxk5ahjxk5.png"
                   alt="FIBC Bag - Bagpak"
                   className="h-full w-auto object-contain"
                 />
