@@ -89,48 +89,25 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
       <section className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Product Development</h2>
-                <p className="text-gray-700 leading-relaxed">
-                  We constantly strive to develop latest techniques to ensure only the best products are manufactured.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Market Analysis</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  We believe in following the latest Industry & market trends to always provide the latest solution.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Client Management</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Our customers are at the forefront. We pride in associating closely with our clients & offer latest innovations with class leading quality assurance.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Why choose us?</h3>
-                <p className="text-gray-700 leading-relaxed mb-3">
-                  Quality assurance and customer centric approach lead us in the industry and enables us the energy to manufacture highly promising, innovative and quality products at effective cost.
-                </p>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-red-600 mr-2">•</span>
-                    <span>Advanced equipments and stringent quality measurement</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-600 mr-2">•</span>
-                    <span>Commitment to hygiene and cleanliness ensures food grade FIBCs that are sanitized and free from dust, germs and pollutants</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-600 mr-2">•</span>
-                    <span>Integrate suitable techniques for quality improvement</span>
-                  </li>
-                </ul>
-              </div>
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Us?</h2>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Quality assurance and customer centric approach lead us in the industry and enables us the energy to manufacture highly promising, innovative and quality products at effective cost.
+              </p>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-red-600 mr-2 mt-1">•</span>
+                  <span>Advanced equipments and stringent quality measurement</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-red-600 mr-2 mt-1">•</span>
+                  <span>Commitment to hygiene and cleanliness ensures food grade FIBCs that are sanitized and free from dust, germs and pollutants</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-red-600 mr-2 mt-1">•</span>
+                  <span>Integrate suitable techniques for quality improvement</span>
+                </li>
+              </ul>
             </div>
 
             <div>
