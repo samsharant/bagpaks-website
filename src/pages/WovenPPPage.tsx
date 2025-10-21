@@ -6,25 +6,14 @@ export default function WovenPPPage() {
     <div>
       <section className="bg-gradient-to-br from-gray-700 to-gray-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="flex items-center mb-6">
-                <Layers className="h-16 w-16 mr-4" />
-                <h1 className="text-5xl font-bold">Woven PP Bags</h1>
-              </div>
-              <p className="text-xl text-gray-300 leading-relaxed">
-                Durable, versatile polypropylene bags for agriculture, construction, and industrial packaging
-              </p>
+          <div className="max-w-4xl">
+            <div className="flex items-center mb-6">
+              <Layers className="h-16 w-16 mr-4" />
+              <h1 className="text-5xl font-bold">Woven PP Bags</h1>
             </div>
-            <div className="flex items-center justify-center">
-              <div className="rounded-lg overflow-hidden shadow-xl">
-                <img
-                  src="/Gemini_Generated_Image_qewtfaqewtfaqewt.png"
-                  alt="Woven PP Bag - Bagpak"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
+            <p className="text-xl text-gray-300 leading-relaxed">
+              Durable, versatile polypropylene bags for agriculture, construction, and industrial packaging
+            </p>
           </div>
         </div>
       </section>

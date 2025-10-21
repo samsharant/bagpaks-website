@@ -117,34 +117,23 @@ export default function FIBCPage({ setCurrentPage }: FIBCPageProps) {
     <div>
       <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="flex items-center mb-6">
-                <Package className="h-16 w-16 mr-4" />
-                <h1 className="text-5xl font-bold">FIBC Bags</h1>
-              </div>
-              <p className="text-xl text-blue-100 leading-relaxed mb-6">
-                Flexible Intermediate Bulk Containers engineered for reliable bulk material handling across industries
-              </p>
+          <div className="max-w-4xl">
+            <div className="flex items-center mb-6">
+              <Package className="h-16 w-16 mr-4" />
+              <h1 className="text-5xl font-bold">FIBC Bags</h1>
+            </div>
+            <p className="text-xl text-blue-100 leading-relaxed mb-6">
+              Flexible Intermediate Bulk Containers engineered for reliable bulk material handling across industries
+            </p>
 
-              {selectedType !== 'overview' && (
-                <button
-                  onClick={() => setSelectedType('overview')}
-                  className="px-6 py-3 bg-white text-blue-900 font-bold rounded-md hover:bg-blue-50 transition-colors"
-                >
-                  ← Back to Overview
-                </button>
-              )}
-            </div>
-            <div className="flex items-center justify-center">
-              <div className="rounded-lg overflow-hidden shadow-xl">
-                <img
-                  src="/Gemini_Generated_Image_cb57l7cb57l7cb57.png"
-                  alt="FIBC Bag - Bagpak"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
+            {selectedType !== 'overview' && (
+              <button
+                onClick={() => setSelectedType('overview')}
+                className="px-6 py-3 bg-white text-blue-900 font-bold rounded-md hover:bg-blue-50 transition-colors"
+              >
+                ← Back to Overview
+              </button>
+            )}
           </div>
         </div>
       </section>
