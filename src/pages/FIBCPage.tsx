@@ -43,7 +43,7 @@ export default function FIBCPage() {
                   >
                     <div className="h-64 bg-gradient-to-br from-red-50 to-red-100 flex items-center justify-center p-6">
                       <img
-                        src="/Gemini_Generated_Image_65faao65faao65fa.png"
+                        src="/Gemini_Generated_Image_9ht1kr9ht1kr9ht1.png"
                         alt="Baffle Bag"
                         className="h-full w-auto object-contain"
                       />
