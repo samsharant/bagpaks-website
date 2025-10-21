@@ -101,9 +101,14 @@ export default function Footer({ setCurrentPage }: FooterProps) {
 
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Bagpak Oman. All rights reserved.
-            </p>
+            <div className="text-center md:text-left">
+              <p className="text-gray-400 text-sm">
+                © {new Date().getFullYear()} Bagpak Oman. All rights reserved.
+              </p>
+              <p className="text-gray-500 text-xs mt-1">
+                A subsidiary of Ocean of Majan International Commercial Services LLC
+              </p>
+            </div>
             <p className="text-gray-400 text-sm mt-4 md:mt-0">
               Industrial Packaging Solutions
             </p>
