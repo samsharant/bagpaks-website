@@ -41,11 +41,11 @@ export default function FIBCPage() {
                     onClick={() => setSelectedType('baffle')}
                     className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1"
                   >
-                    <div className="h-64 bg-gradient-to-br from-red-50 to-red-100 flex items-center justify-center p-6">
+                    <div className="h-80 bg-white flex items-center justify-center overflow-hidden">
                       <img
                         src="/Gemini_Generated_Image_9ht1kr9ht1kr9ht1.png"
                         alt="Baffle Bag"
-                        className="h-full w-auto object-contain"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     <div className="p-6 text-left">
@@ -61,11 +61,11 @@ export default function FIBCPage() {
                     onClick={() => setSelectedType('standard')}
                     className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1"
                   >
-                    <div className="h-64 bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center p-6">
+                    <div className="h-80 bg-white flex items-center justify-center overflow-hidden">
                       <img
                         src="/Gemini_Generated_Image_jxk5ahjxk5ahjxk5.png"
                         alt="Standard FIBC Bag"
-                        className="h-full w-auto object-contain"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     <div className="p-6 text-left">
@@ -81,11 +81,11 @@ export default function FIBCPage() {
                     onClick={() => setSelectedType('ventilated')}
                     className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1"
                   >
-                    <div className="h-64 bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center p-6">
+                    <div className="h-80 bg-white flex items-center justify-center overflow-hidden">
                       <img
                         src="/Gemini_Generated_Image_cb57l7cb57l7cb57.png"
                         alt="Ventilated Bag"
-                        className="h-full w-auto object-contain"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     <div className="p-6 text-left">
