@@ -30,7 +30,7 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
               <span className="block text-red-500">Engineered for Excellence</span>
             </h1>
             <p className="text-xl text-gray-200 mb-8 leading-relaxed">
-              Leading manufacturer of FIBC bags, Baffle bags, and Woven PP bags in Oman. Trusted by industries worldwide for reliable, high-quality packaging solutions.
+              Leading manufacturer of FIBC bags, Ad Star bags, Baffle bags, and Woven PP bags in Oman. Trusted by industries worldwide for reliable, high-quality packaging solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button
@@ -134,7 +134,7 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="h-80 bg-white flex items-center justify-center p-6">
                 <img
@@ -170,6 +170,43 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
                   className="w-full flex items-center justify-center px-6 py-3 bg-blue-900 text-white font-bold rounded-md hover:bg-blue-800 transition-colors"
                 >
                   Explore FIBC Range
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <div className="h-80 bg-white flex items-center justify-center p-6">
+                <img
+                  src="/Gemini_Generated_Image_vv38qevv38qevv38.png"
+                  alt="Ad Star Bag - Bagpak"
+                  className="h-full w-auto object-contain"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Ad Star Bags</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  Premium multi-layered woven PP bags with patented hot air welded seams for leak-proof, dust-free performance.
+                </p>
+                <ul className="space-y-2 mb-6 text-sm text-gray-600">
+                  <li className="flex items-start">
+                    <span className="text-red-600 mr-2">•</span>
+                    Block-bottom design
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-600 mr-2">•</span>
+                    Valve or open mouth options
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-600 mr-2">•</span>
+                    Superior strength & durability
+                  </li>
+                </ul>
+                <button
+                  onClick={() => handleNavigation('adstar')}
+                  className="w-full flex items-center justify-center px-6 py-3 bg-blue-900 text-white font-bold rounded-md hover:bg-blue-800 transition-colors"
+                >
+                  Learn More
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </button>
               </div>

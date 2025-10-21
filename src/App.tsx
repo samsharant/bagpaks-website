@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage';
 import ProductsOverview from './pages/ProductsOverview';
 import FIBCPage from './pages/FIBCPage';
 import BafflePage from './pages/BafflePage';
+import AdStarPage from './pages/AdStarPage';
 import WovenPPPage from './pages/WovenPPPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -22,6 +23,8 @@ function App() {
         return <FIBCPage />;
       case 'baffle':
         return <BafflePage />;
+      case 'adstar':
+        return <AdStarPage />;
       case 'woven':
         return <WovenPPPage />;
       case 'about':

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Package, Box, Layers } from 'lucide-react';
+import { ArrowRight, Package, Box, Layers, Star } from 'lucide-react';
 
 interface ProductsOverviewProps {
   setCurrentPage: (page: string) => void;
@@ -134,6 +134,62 @@ export default function ProductsOverview({ setCurrentPage }: ProductsOverviewPro
                   className="flex items-center px-8 py-4 bg-red-600 text-white font-bold rounded-md hover:bg-red-700 transition-colors"
                 >
                   View Baffle Bag Details
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </button>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="bg-white rounded-lg shadow-xl p-8 h-96 flex items-center justify-center">
+                  <img
+                    src="/Gemini_Generated_Image_vv38qevv38qevv38.png"
+                    alt="Ad Star Bag - Bagpak"
+                    className="h-full w-auto object-contain"
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="flex items-center mb-4">
+                  <Star className="h-10 w-10 text-blue-600 mr-3" />
+                  <h2 className="text-4xl font-bold text-gray-900">Ad Star Bags</h2>
+                </div>
+                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                  Premium multi-layered woven polypropylene bags with patented hot air welded seams. Engineered for leak-proof, dust-free performance in demanding industrial applications.
+                </p>
+                <div className="grid grid-cols-2 gap-4 mb-6">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <div className="text-2xl font-bold text-blue-600 mb-1">Zero</div>
+                    <div className="text-sm text-gray-600">Dust Leakage</div>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <div className="text-2xl font-bold text-blue-600 mb-1">Block</div>
+                    <div className="text-sm text-gray-600">Bottom Design</div>
+                  </div>
+                </div>
+                <ul className="space-y-3 mb-8 text-gray-600">
+                  <li className="flex items-start">
+                    <span className="text-red-600 font-bold mr-2">✓</span>
+                    Patented hot air welded seams—no stitching or glue
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-600 font-bold mr-2">✓</span>
+                    Brick-shaped for upright stacking and space efficiency
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-600 font-bold mr-2">✓</span>
+                    Ideal for cement, chemicals, fertilizers, and agriculture
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-600 font-bold mr-2">✓</span>
+                    Fully customizable with valve or open mouth options
+                  </li>
+                </ul>
+                <button
+                  onClick={() => handleNavigation('adstar')}
+                  className="flex items-center px-8 py-4 bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 transition-colors"
+                >
+                  View Ad Star Details
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </button>
               </div>
