@@ -4,8 +4,17 @@ import BaffleContent from './fibc-types/BaffleContent';
 import StandardUNContent from './fibc-types/StandardUNContent';
 import VentilatedContent from './fibc-types/VentilatedContent';
 
-export default function FIBCPage() {
+interface FIBCPageProps {
+  setCurrentPage: (page: string) => void;
+}
+
+export default function FIBCPage({ setCurrentPage }: FIBCPageProps) {
   const [selectedType, setSelectedType] = useState<'overview' | 'baffle' | 'standard' | 'ventilated'>('overview');
+
+  const handleNavigation = (page: string) => {
+    setCurrentPage(page);
+    window.scrollTo(0, 0);
+  };
 
   const renderContent = () => {
     switch (selectedType) {
@@ -38,7 +47,7 @@ export default function FIBCPage() {
 
                 <div className="grid md:grid-cols-3 gap-8 mb-16">
                   <button
-                    onClick={() => setSelectedType('baffle')}
+                    onClick={() => handleNavigation('baffle')}
                     className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1"
                   >
                     <div className="h-80 bg-white flex items-center justify-center overflow-hidden">

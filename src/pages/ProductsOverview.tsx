@@ -87,62 +87,6 @@ export default function ProductsOverview({ setCurrentPage }: ProductsOverviewPro
               <div>
                 <div className="bg-white rounded-lg shadow-xl p-8 h-96 flex items-center justify-center">
                   <img
-                    src="/Gemini_Generated_Image_ml2cv2ml2cv2ml2c.png"
-                    alt="Baffle Bag - Bagpak"
-                    className="h-full w-auto object-contain"
-                  />
-                </div>
-              </div>
-              <div>
-                <div className="flex items-center mb-4">
-                  <Box className="h-10 w-10 text-red-600 mr-3" />
-                  <h2 className="text-4xl font-bold text-gray-900">Baffle Bags</h2>
-                </div>
-                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Specialized FIBC bags with internal baffle panels that maintain a cubic shape when filled, providing superior stacking stability and maximizing storage efficiency.
-                </p>
-                <div className="grid grid-cols-2 gap-4 mb-6">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <div className="text-2xl font-bold text-red-600 mb-1">95%+</div>
-                    <div className="text-sm text-gray-600">Shape Retention</div>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <div className="text-2xl font-bold text-red-600 mb-1">30%</div>
-                    <div className="text-sm text-gray-600">More Capacity</div>
-                  </div>
-                </div>
-                <ul className="space-y-3 mb-8 text-gray-600">
-                  <li className="flex items-start">
-                    <span className="text-red-600 font-bold mr-2">✓</span>
-                    Internal baffles prevent bulging and maintain cubic form
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-600 font-bold mr-2">✓</span>
-                    Enhanced stacking efficiency in warehouses and containers
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-600 font-bold mr-2">✓</span>
-                    Ideal for free-flowing and fine powdered materials
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-600 font-bold mr-2">✓</span>
-                    Reduced transportation and storage costs
-                  </li>
-                </ul>
-                <button
-                  onClick={() => handleNavigation('baffle')}
-                  className="flex items-center px-8 py-4 bg-red-600 text-white font-bold rounded-md hover:bg-red-700 transition-colors"
-                >
-                  View Baffle Bag Details
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </button>
-              </div>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <div className="bg-white rounded-lg shadow-xl p-8 h-96 flex items-center justify-center">
-                  <img
                     src="/Gemini_Generated_Image_vv38qevv38qevv38.png"
                     alt="Ad Star Bag - Bagpak"
                     className="h-full w-auto object-contain"

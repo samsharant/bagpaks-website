@@ -53,7 +53,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
                 onMouseEnter={() => setProductsDropdownOpen(true)}
                 onMouseLeave={() => setProductsDropdownOpen(false)}
                 className={`px-4 py-2 rounded-md text-sm font-medium transition-colors flex items-center ${
-                  ['products', 'fibc', 'baffle', 'woven'].includes(currentPage)
+                  ['products', 'fibc', 'adstar', 'woven'].includes(currentPage)
                     ? 'bg-blue-900 text-white'
                     : 'text-gray-700 hover:bg-gray-100'
                 }`}
@@ -82,10 +82,10 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
                       FIBC Bags
                     </button>
                     <button
-                      onClick={() => handleNavigation('baffle')}
+                      onClick={() => handleNavigation('adstar')}
                       className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     >
-                      Baffle Bags
+                      Ad Star Bags
                     </button>
                     <button
                       onClick={() => handleNavigation('woven')}
@@ -158,12 +158,12 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
               FIBC Bags
             </button>
             <button
-              onClick={() => handleNavigation('baffle')}
+              onClick={() => handleNavigation('adstar')}
               className={`block w-full text-left px-4 py-3 text-sm ${
-                currentPage === 'baffle' ? 'bg-gray-100' : ''
+                currentPage === 'adstar' ? 'bg-gray-100' : ''
               }`}
             >
-              Baffle Bags
+              Ad Star Bags
             </button>
             <button
               onClick={() => handleNavigation('woven')}

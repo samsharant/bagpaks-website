@@ -20,7 +20,7 @@ function App() {
       case 'products':
         return <ProductsOverview setCurrentPage={setCurrentPage} />;
       case 'fibc':
-        return <FIBCPage />;
+        return <FIBCPage setCurrentPage={setCurrentPage} />;
       case 'baffle':
         return <BafflePage />;
       case 'adstar':
