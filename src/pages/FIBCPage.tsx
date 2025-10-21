@@ -83,7 +83,7 @@ export default function FIBCPage() {
                   >
                     <div className="h-80 bg-white flex items-center justify-center overflow-hidden">
                       <img
-                        src="/Gemini_Generated_Image_cb57l7cb57l7cb57.png"
+                        src="/Gemini_Generated_Image_q8ykv9q8ykv9q8yk.png"
                         alt="Ventilated Bag"
                         className="w-full h-full object-cover"
                       />
