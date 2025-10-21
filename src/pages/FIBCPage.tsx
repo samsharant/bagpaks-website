@@ -85,7 +85,7 @@ export default function FIBCPage() {
                       <img
                         src="/Gemini_Generated_Image_q8ykv9q8ykv9q8yk.png"
                         alt="Ventilated Bag"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover scale-110"
                       />
                     </div>
                     <div className="p-6 text-left">
