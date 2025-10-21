@@ -134,7 +134,7 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="h-80 bg-white flex items-center justify-center p-6">
                 <img
@@ -148,62 +148,28 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
                 <p className="text-gray-600 mb-4 leading-relaxed">
                   Flexible Intermediate Bulk Containers designed for efficient storage and transport of bulk materials up to 2000 kg.
                 </p>
-                <ul className="space-y-2 mb-6 text-sm text-gray-600">
-                  <li className="flex items-start">
-                    <span className="text-red-600 mr-2">•</span>
-                    Multiple safety factors
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-600 mr-2">•</span>
-                    Type A, B, C, D options
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-600 mr-2">•</span>
-                    Food-grade compliant
-                  </li>
-                </ul>
+                <div className="mb-4">
+                  <p className="text-sm font-bold text-gray-700 mb-2">Available Types:</p>
+                  <ul className="space-y-1 text-sm text-gray-600">
+                    <li className="flex items-start">
+                      <span className="text-red-600 mr-2">•</span>
+                      Baffle Bags - Cubic shape retention
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-900 mr-2">•</span>
+                      Standard / UN Bags - Versatile with UN certification
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-600 mr-2">•</span>
+                      Ventilated Bags - Breathable for fresh produce
+                    </li>
+                  </ul>
+                </div>
                 <button
                   onClick={() => handleNavigation('fibc')}
                   className="w-full flex items-center justify-center px-6 py-3 bg-blue-900 text-white font-bold rounded-md hover:bg-blue-800 transition-colors"
                 >
-                  Learn More
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </button>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-              <div className="h-80 bg-white flex items-center justify-center p-6">
-                <img
-                  src="/Gemini_Generated_Image_ml2cv2ml2cv2ml2c.png"
-                  alt="Baffle Bag - Bagpak"
-                  className="h-full w-auto object-contain"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Baffle Bags</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">
-                  Specialized FIBC with internal baffles for superior shape retention and maximum storage efficiency.
-                </p>
-                <ul className="space-y-2 mb-6 text-sm text-gray-600">
-                  <li className="flex items-start">
-                    <span className="text-red-600 mr-2">•</span>
-                    Cubic shape retention
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-600 mr-2">•</span>
-                    Enhanced stacking stability
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-600 mr-2">•</span>
-                    Optimized warehouse space
-                  </li>
-                </ul>
-                <button
-                  onClick={() => handleNavigation('baffle')}
-                  className="w-full flex items-center justify-center px-6 py-3 bg-blue-900 text-white font-bold rounded-md hover:bg-blue-800 transition-colors"
-                >
-                  Learn More
+                  Explore FIBC Range
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </button>
               </div>
