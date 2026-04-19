@@ -26,7 +26,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
             onClick={() => handleNavigation('home')}
           >
             <img
-              src="/bagpaks-logo.png"
+              src="/_VC_Sivraj_Bag.jpg.jpeg"
               alt="Bagpak Logo"
               className="h-14 w-14 object-contain"
             />
