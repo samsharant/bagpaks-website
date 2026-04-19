@@ -18,7 +18,7 @@ export default function Footer({ setCurrentPage }: FooterProps) {
           <div>
             <div className="flex items-center mb-4">
               <img
-                src="/_VC_Sivraj_Bag.jpg.jpeg"
+                src="/bagpaks-logo.png"
                 alt="Bagpak Logo"
                 className="h-12 w-12 object-contain"
               />
